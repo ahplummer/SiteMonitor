@@ -6,6 +6,7 @@ This will log entries into a local SQLite db called 'sitemetrics.db' for further
 ###Usage
 
 ```$python SiteMonitor.py -site=http://example.com -text=EXAMPLE -smtpserver=smtp.gmail.com:587 -smtpuser=gmailuser -smtppassword=gmailpass -fromemail=gmailuser@gmail.com -recipients=gmailuser@gmail.com -sendwhengood=FALSE```
+
 NOTE: This is not threaded, so is best placed in a cron job for periodic purposes.
 
 * -site (required): this is the url to test
