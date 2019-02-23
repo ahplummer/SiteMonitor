@@ -1,12 +1,12 @@
 ## SiteMonitor
 
-###Description
+### Description
 
 This utility pings a website and retrieves the front page.  It then marks it good or bad in a local SQLite Database.  It's a cheap way of doing some 'uptime' monitoring of a website.
 
 This will log entries into a local SQLite db called 'sitemetrics.db' for further review.
 
-###Usage
+### Usage
 
 ```
 $python SiteMonitor.py -site=http://example.com -text=EXAMPLE -smtpserver=smtp.gmail.com:587 -smtpuser=gmailuser -smtppassword=gmailpass -fromemail=gmailuser@gmail.com -recipients=gmailuser@gmail.com -sendwhengood=FALSE
